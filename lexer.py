@@ -95,7 +95,7 @@ def tokenize(code):
         # ASSIGNMENT
         # ---------------------------------
         if char == "=":
-            tokens.append(Token(ASSIGNMENT, char))
+            tokens.append(Token(ASSIGN, char))
             i += 1
             continue
 
